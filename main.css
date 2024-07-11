@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    color: white;
+    direction: rtl;
+    background:linear-gradient(45deg ,#240165 , #05001c ) ;
+    font-family: 'Tajawal', sans-serif;
+
+}
+
+.first {
+    margin-right: 25px;
+}
+h1 {
+    font-size: 150px;
+}
+#date {
+    font-size: 30px;
+}
+hr {
+    border-color: #221a31;
+    margin: 0 30px;
+}
+.cards {
+    margin-top: 50px ;
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    border-radius: 14px;
+    background-color: white;
+    width: 150px;
+    height: 200px;
+    color: #05001c;
+    font-size: 30px;
+    box-shadow: 5px 10px 8px #393939;
+}
+.salah {
+    height: 50px;
+    border-radius: 3px;
+    margin-top: auto;
+    padding-right: 9px;
+    background:linear-gradient(45deg ,#5709ee , #7a37bf);
+    color: white;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.time {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+  }
+  #select {
+    width: 300px;
+    height: 50px;
+    color: white;
+    background: none;
+    /* background-color: transparent; */
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+option {
+    background:#240165;
+}
+
